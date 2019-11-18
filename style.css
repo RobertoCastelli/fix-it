@@ -1,0 +1,32 @@
+.container{
+    margin-top: 30px;
+    max-width: 300px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 15px;
+    color: #35485e;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    color: bisque !important;
+    text-shadow: -2px -2px 0 #35485e;
+}
+
+footer, 
+p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.able{
+    background-color: #41b882;
+    box-shadow: 5px 10px #35485e;
+
+
+}
