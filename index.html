@@ -18,18 +18,24 @@
 <body>
 
     <div class="container">
-        <p>Have a problem that needs fixing?</p>
-        <button id="btnFix" class="able">FIX-IT</button>
-        <p id="labelFix">The <b>FIX-IT</b> button can help!</p>
-
+        <h1>FIX-IT</h1>
+        
+        <h6>Have a problem that needs fixing?</h6>
+        <h6>The <b>FIX-IT</b> button can help!</h6>
+        
+        <button id="btnFix" value="play" class="able">FIX-IT</button>
+        <p id="labelFix"></p>
         <div id="bar">
             <div id="progressBar"></div>
-            <h6 id="labelBar">0%</h6>
+            <h6 id="labelBar">1%</h6>
         </div>
 
-        <footer>
+        <footer class="mx-auto p-5">
             copyright &copy; 2019 Roberto Castelli www.robertocastelli.dev
         </footer>
+
+        <audio id="audio" src="sound/Liliput - Split .mp3" ></audio>
+
     </div>
     <script src="app.js"></script>
 

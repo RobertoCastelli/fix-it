@@ -2,6 +2,10 @@
     outline: none !important;
 }
 
+h1 {
+    padding-top: 30px;
+}
+
 .container{
     margin-top: 30px;
     max-width: 300px;
@@ -31,7 +35,6 @@ button:active {
     box-shadow: 3px 5px #35485e;
 }
 
-footer, 
 p {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -40,6 +43,12 @@ p {
 .able{
     background-color: #41b882;
     box-shadow: 5px 10px #35485e;
+}
+
+.disable {
+    background-color: #229e66;
+    transform: translateY(4px);
+    box-shadow: 3px 5px #35485e;
 }
 
 #bar {
