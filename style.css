@@ -1,3 +1,7 @@
+* {
+    outline: none !important;
+}
+
 .container{
     margin-top: 30px;
     max-width: 300px;
@@ -18,6 +22,15 @@ button {
     text-shadow: -2px -2px 0 #35485e;
 }
 
+button:hover {
+    background-color: #229e66;
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 3px 5px #35485e;
+}
+
 footer, 
 p {
     padding-top: 30px;
@@ -27,6 +40,17 @@ p {
 .able{
     background-color: #41b882;
     box-shadow: 5px 10px #35485e;
+}
 
+#bar {
+    visibility: hidden;
+    width: 100%;
+    height: 30px;
+    background-color: #35485e;
+}
 
+#progressBar{
+    width: 0%;
+    height: 30px;
+    background-color: #229e66;
 }

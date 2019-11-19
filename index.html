@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
     <title>FIX-IT</title>
 </head>
+
 <body>
 
     <div class="container">
         <p>Have a problem that needs fixing?</p>
-        <button class="able">FIX-IT</button>
-        <p>The <b>FIX-IT</b> button can help!</p>
-    
+        <button id="btnFix" class="able">FIX-IT</button>
+        <p id="labelFix">The <b>FIX-IT</b> button can help!</p>
+
+        <div id="bar">
+            <div id="progressBar"></div>
+            <h6 id="labelBar">0%</h6>
+        </div>
+
         <footer>
             copyright &copy; 2019 Roberto Castelli www.robertocastelli.dev
         </footer>
     </div>
+    <script src="app.js"></script>
 
-    
 </body>
+
 </html>
